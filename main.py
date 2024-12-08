@@ -5,6 +5,7 @@ import pandas as pd
 import google.generativeai as genai
 import time
 
+#eda 
 try:
     df = pd.read_csv("microbiome.csv")
     print("Data loaded successfully!")
