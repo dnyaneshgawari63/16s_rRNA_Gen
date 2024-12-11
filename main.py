@@ -17,3 +17,5 @@ except pd.errors.ParserError:
     print("Error: Could not parse microbiome.csv. Check the file format.")
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
+
+# find the null values in data, duplicates
