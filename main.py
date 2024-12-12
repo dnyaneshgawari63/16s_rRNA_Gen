@@ -18,4 +18,4 @@ except pd.errors.ParserError:
 except Exception as e:
     print(f"An unexpected error occurred: {e}")
 
-# find the null values in data, duplicates
+# find the null values in data, duplicates, replace missing values with imputer strategies e.g median
