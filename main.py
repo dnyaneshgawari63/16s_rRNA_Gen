@@ -47,6 +47,7 @@ numerical_cols = df.select_dtypes(include=['number']).columns
 imputer = SimpleImputer(strategy='median')
 df[numerical_cols] = imputer.fit_transform(df[numerical_cols])
 
+
 # Check for null values after imputation
 print("\nNull Values in Each Column After Imputation:")
 print(df.isnull().sum())
