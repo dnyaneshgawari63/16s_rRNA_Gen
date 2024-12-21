@@ -61,6 +61,8 @@ def handle_missing_values_and_duplicates(df):
 
     return df
 
+
+
 # Main function
 def main():
     file_path = "microbiome.csv"
