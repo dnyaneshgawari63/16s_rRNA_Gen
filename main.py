@@ -5,7 +5,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import numpy as np
 import logging
 
-# Configure logging
+# Config logging
 logging.basicConfig(filename='preprocessing_log.txt', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
